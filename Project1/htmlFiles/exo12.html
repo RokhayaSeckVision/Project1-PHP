@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire et Tableau XHTML</title>
+    <style type="text/css">
+        body{
+            background-color: blanchedalmond;
+            margin:50px 0px; padding:0px;
+            text-align:center;
+            align-items:center;
+          }
+    </style>
+</head>
+<body>
+<form action="exo12.php" method="POST">
+    <div>
+        <label for="nom">Nom:</label>
+        <input type="text" id='nom' name="firstname"><br>
+    </div>
+    <div>
+        <label for="prenom">Prenom:</label>
+        <input type="text" id='prenom' name="lastname"><br>
+    </div>
+    <div>
+        <label for="adresse">Adresse:</label>
+        <input type="text" id='adresse' name="location"><br>
+    </div>
+    <div>
+        <label for="ville">Ville:</label>
+        <input type="text" id='ville' name="city"><br>
+    </div>
+    <div>
+        <label for="code">Code Postale:</label>
+        <input type="text" id='code' name="codice"><br>
+    </div>
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+</form>  
+</body>
+</html>
